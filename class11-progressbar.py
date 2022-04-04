@@ -3,7 +3,7 @@ value = 0
 def increase():
     global value
     value += 10
-    uifile.progressBar.setValue(value)
+    uifile.progressBar.setValue(value)  # this method is to set a value to the bar.
 
 def zering():
     global value
