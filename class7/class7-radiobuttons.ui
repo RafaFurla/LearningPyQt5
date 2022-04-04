@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
@@ -17,9 +16,7 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(233, 255, 245);</string>
   </property>
-
   <widget class="QWidget" name="centralwidget">
-
    <widget class="QRadioButton" name="radioButton">
     <property name="geometry">
      <rect>
@@ -37,10 +34,9 @@
      </font>
     </property>
     <property name="text">
-     <string>RadioButton</string>
+     <string>Azul</string>
     </property>
    </widget>
-
    <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
@@ -58,10 +54,9 @@
      </font>
     </property>
     <property name="text">
-     <string>RadioButton</string>
+     <string>Verde</string>
     </property>
    </widget>
-
    <widget class="QRadioButton" name="radioButton_3">
     <property name="geometry">
      <rect>
@@ -79,10 +74,9 @@
      </font>
     </property>
     <property name="text">
-     <string>RadioButton</string>
+     <string>Amarelo</string>
     </property>
    </widget>
-
    <widget class="QRadioButton" name="radioButton_5">
     <property name="geometry">
      <rect>
@@ -100,10 +94,9 @@
      </font>
     </property>
     <property name="text">
-     <string>RadioButton</string>
+     <string>Vermelho</string>
     </property>
    </widget>
-
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -127,7 +120,6 @@
      <string>Select one color: </string>
     </property>
    </widget>
-
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
@@ -148,7 +140,6 @@
      <string>Selected color: </string>
     </property>
    </widget>
-   
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
