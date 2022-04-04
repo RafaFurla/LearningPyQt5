@@ -13,8 +13,8 @@ def funcao_principal():
         opcao = ""
     formulario.label_2.setText(f'Selected color: {opcao}')
 app = QtWidgets.QApplication([])
-formulario=uic.loadUi("class7-radiobuttons.ui")
-formulario.pushButton.clicked.connect(funcao_principal)
+formulario=uic.loadUi("class7-radiobuttons.ui")  # this creates a reference between the ui file and the object formulario
+formulario.pushButton.clicked.connect(funcao_principal)  # formulario will call the ui file. pushButton will call the object pushButton inside the ui file. clicked will create an event when the button is clicked. connect will call the function "funcao_principal" after the button was clicked.
 
 formulario.show()
 app.exec()
